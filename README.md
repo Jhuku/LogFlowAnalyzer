@@ -17,7 +17,7 @@
 2. I am assuming the formatting of the flow log file and the lookup tables are proper as specified in the problem statement.
 3. The script is tested in windows and mac.
 4. The script uses a map for mapping protocol numbers with the protocol names that is based on https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.
-There may be chances of mismatches with the lookup file provided that may have entries that say for eg. `xns-idp` or `leaf-1` and the corresponding lookup files may have these as `xns_idp` or `leaf_1`. These may cause the log entries to be Untagged
+There may be chances of mismatches with the lookup map (`protomap`) in my code that may have entries that say for eg. `xns-idp` or `leaf-1` and the corresponding lookup files may have these as `xns_idp` or `leaf_1`. These may cause the log entries to be Untagged
 
 ### Tests performed
 
