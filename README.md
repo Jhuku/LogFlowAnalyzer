@@ -13,7 +13,7 @@
 
 ### Assumptions
 
-1. The script runs only for the flow log file version 2
+1. The script only supports default log format and the only version supported is 2.
 2. I am assuming the formatting of the flow log file and the lookup tables are proper as specified in the problem statement.
 3. The script is tested in windows and mac.
 4. The script uses a map for mapping protocol numbers with the protocol names that is based on https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml.
