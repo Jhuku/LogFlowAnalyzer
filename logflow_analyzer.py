@@ -171,7 +171,6 @@ if __name__ == "__main__":
     portProtoFreq = {}
     portProtocolList = []
 
-    print("Number of arguments: {}".format(len(sys.argv)))
     __location__ = os.path.realpath(
         os.path.join(os.getcwd(), os.path.dirname(__file__))
     )
@@ -234,5 +233,3 @@ if __name__ == "__main__":
 
     with open(os.path.join(__location__, "portprotocount.csv"), "w+") as f:
         f.write(fileContent)
-
-    # C:/Users/Owner/Downloads/LogFlow/LogFlow/lookup.csv
