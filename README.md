@@ -10,3 +10,9 @@
     2. **Custom mode**: This enables the script to run against your own logflow file and the lookup files. The script can be run by executing the command `python3 logflow_analyzer.py <absoulte/path/to/logflow/file.txt> <absolute/path/to/lookupfile.csv>`
 
 3. The output files for showing the count of tags is generated as `tagcount.csv` and the port-protocol count is generated in the file named `portprotocount.csv` in the same location as the script in the format specified in the requirement.
+
+### Assumptions
+
+1. The script runs only for the flow log file version 2
+2. I am assuming the formatting of the flow log file and the lookup tables are proper as specified in the problem statement.
+3. The script is tested in windows and mac.
